@@ -9,44 +9,12 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     
-    
-/*     /* TOP BAR ELEMENTS */    
-	.responsive-logo {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		margin-top: 10px;
-		padding-top: 5px;
-	}
-   
-	.responsive-logo a {
-		float: none !important;
-	}
 
-	.responsive-nav {
-		text-align: center;
-		width: 100%;
-		padding-top: 0;
-	}
-
-	.responsive-nav li {
-		margin-bottom: 15px;
-		margin-top: 0 !important;
-	}
-
-	.navbar-brand {
-		width: 100%;
-	}
-
-	.navbar-brand img {
-		margin: auto;
-	}
-      */
      
      /* HOME */
 	.intro {
 		margin-top: 31%;
-		line-height: 3.438rem !important;
+		line-height: 4.438rem !important;
 		font-size: 2.813rem;
 	}
       
