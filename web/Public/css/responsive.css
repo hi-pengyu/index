@@ -10,7 +10,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     
     
-    /* TOP BAR ELEMENTS */    
+/*     /* TOP BAR ELEMENTS */    
 	.responsive-logo {
 		width: 100%;
 		position: relative;
@@ -41,7 +41,7 @@
 	.navbar-brand img {
 		margin: auto;
 	}
-     
+      */
      
      /* HOME */
 	.intro {
