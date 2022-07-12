@@ -1,0 +1,370 @@
+<!-- 
+开源工作台：
+源码地址：https://github.com/openspug/index
+创建者: openspug组织@https://github.com/openspug
+创建时间：2019-05-26
+联系邮箱：yupozhang@gmail.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/a3bc0499b7.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>指南针</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #F7F7F7;
+    }
+
+    .container {
+      background-color: #fff;
+
+    }
+
+    .container-header {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      height: 40px;
+      padding-left: 10px;
+
+    }
+
+    .container-body {
+      display: flex;
+      border-top: 1px solid #dfdfdf;
+      padding: 20px 10px 0 10px;
+      /*justify-content: space-between;*/
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .container div {
+      display: flex;
+    }
+
+    .item-block {
+      border: 1px solid #dfdfdf;
+      flex-direction: column;
+      height: 160px;
+      width: 24%;
+      margin-bottom: 20px;
+      margin-right: 10px;
+
+    }
+
+    a:link {
+      /* 超链接正常状态下的样式 */
+      color: #000000;
+      /* 黑色 */
+      text-decoration: none;
+      /* 无下划线 */
+    }
+
+    a:visited {
+      /* 访问过的超链接 */
+      color: #000000;
+      /* 黑色 */
+      text-decoration: none;
+      /* 无下划线 */
+    }
+
+
+    .item-top {
+      height: 80px;
+      padding: 20px;
+    }
+
+    .item-logo {
+      width: 21%;
+      height: 60px;
+      margin-right: 20px;
+
+    }
+
+    .item-logo img {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .item-body {
+      flex-direction: column;
+      width: 79%;
+    }
+
+    .item-bottom {
+      height: 40px;
+      justify-content: space-around;
+      align-items: center;
+      color: #888888;
+      background-color: #F7F7F7;
+      font-size: 13px;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+
+    .notice {
+      font-size: 12px;
+      color: #888;
+    }
+
+    .divider {
+      height: 20px;
+      width: 1px;
+      background-color: #dfdfdf;
+    }
+    .list-group {
+      width: 21%;
+      height: 60px;
+      margin-right: 20px;
+
+    }
+
+  </style>
+</head>
+
+<body style="padding: 10px">
+  <div class="container">
+    <div class="container-header">内部系统导航</div>
+    <div class="container-body">
+      <!-- 笔记本 -->
+      <div class="item-block">
+        <a href="https://note.oyou.org/" target="_blank">
+          <div class="item-top">
+            <!-- <div class="item-logo"><img src="img/gitlab.png"></div> -->
+            <div class="list-group"><i class="fa-solid fa-book  fa-4x"></i></div>
+            <div class="item-body">
+              <span class="title">笔记本</span>
+              <span class="notice">这是我的笔记本</span>
+            </div>
+          </div>
+        </a>
+        <div class="item-bottom">
+          <a href="https://note.oyou.org/" target="_blank">
+            <div>点击进入</div>
+          </a>
+          </a>
+        </div>
+      </div>
+      <!-- 日记本 -->
+      <div class="item-block">
+        <a href="https://diary.durose.cn/" target="_blank">
+          <div class="item-top">
+            <div class="list-group"><i class="fa-solid fa-book-open  fa-4x"></i></div>
+            <div class="item-body">
+              <span class="title">日记本</span>
+              <span class="notice">这是我的日记本</span>
+            </div>
+          </div>
+        </a>
+        <div class="item-bottom">
+          <a href="https://diary.durose.cn/" target="_blank">
+            <div>点击进入</div>
+          </a>
+          </a>
+        </div>
+      </div>
+
+      <!-- 网盘 -->
+      <div class="item-block">
+        <a href="https://space.oyou.org/" target="_blank">
+          <div class="item-top">
+            <div class="list-group"><i class="fa-solid fa-hard-drive fa-4x"></i></div>
+            
+            <div class="item-body">
+              <span class="title">网盘</span>
+              <span class="notice">网盘</span>
+            </div>
+          </div>
+        </a>
+        <div class="item-bottom">
+          <a href="https://space.oyou.org/" target="_blank">
+            <div>点击进入</div>
+          </a>
+          </a>
+        </div>
+      </div>
+      <!-- File Browser -->
+      <div class="item-block">
+        <a href="https://a.oyou.org/files/" target="_blank">
+          <div class="item-top">
+            <div class="list-group"><i class="fa-solid fa-file fa-4x"></i></div>
+            
+            <div class="item-body">
+              <span class="title">File Browser</span>
+              <span class="notice">File Browser</span>
+            </div>
+          </div>
+        </a>
+        <div class="item-bottom">
+          <a href="https://a.oyou.org/files/" target="_blank">
+            <div>点击进入</div>
+          </a>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <body style="padding: 10px">
+    <div class="container">
+      <div class="container-header">工具</div>
+      <div class="container-body">
+        
+        <!-- mini-web -->
+        <div class="item-block">
+          <a href="https://mini.oyou.org/" target="_blank">
+            <div class="item-top">
+              <div class="list-group"><i class="fa-solid fa-feather  fa-4x"></i></div>
+              <div class="item-body">
+                <span class="title">迷你在线记事本</span>
+                <span class="notice">迷你在线记事本</span>
+              </div>
+            </div>
+          </a>
+          <div class="item-bottom">
+            <a href="https://mini.oyou.org/" target="_blank">
+              <div>点击进入</div>
+            </a>
+            <div class="divider"></div>
+            <a href="https://note.oyou.org/%E8%B5%84%E6%96%99%E5%92%8C%E5%B7%A5%E5%85%B7" target="_blank">
+              <div>使用说明</div>
+            </a>
+            </a>
+          </div>
+        </div>
+        <!-- github加速 -->
+        <div class="item-block">
+          <a href="https://proxy.oyou.org/" target="_blank">
+            <div class="item-top">
+              <div class="list-group"><i class="fa-brands fa-git  fa-4x"></i></div>
+              <div class="item-body">
+                <span class="title">Github加速</span>
+                <span class="notice">Github加速</span>
+              </div>
+            </div>
+          </a>
+          <div class="item-bottom">
+            <a href="https://proxy.oyou.org/" target="_blank">
+              <div>点击进入</div>
+            </a>
+            <div class="divider"></div>
+            <a href="https://note.oyou.org/%E8%B5%84%E6%96%99%E5%92%8C%E5%B7%A5%E5%85%B7" target="_blank">
+              <div>使用说明</div>
+            </a>
+
+            </a>
+          </div>
+        </div>
+        <!-- Aira2 -->
+        <div class="item-block">
+          <a href="https://a.oyou.org/" target="_blank">
+            <div class="item-top">
+              <div class="list-group"><i class="fa-solid fa-download fa-4x"></i></div>
+              <div class="item-body">
+                <span class="title">Aira2</span>
+                <span class="notice">Aira2</span>
+              </div>
+            </div>
+          </a>
+          <div class="item-bottom">
+            <a href="https://a.oyou.org/" target="_blank">
+              <div>点击进入</div>
+            </a>
+            <div class="divider"></div>
+            <a href="https://note.oyou.org/%E8%B5%84%E6%96%99%E5%92%8C%E5%B7%A5%E5%85%B7" target="_blank">
+              <div>使用说明</div>
+            </a>
+            </a>
+          </div>
+        </div>
+<!-- ssss -->
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="container-header">运维系统导航</div>
+    <div class="container-body">
+      <div class="item-block">
+        <a href="https://spug.oyou.org" target="_blank">
+          <div class="item-top">
+            <div class="item-logo"><img src="https://ucloud.19610412.xyz/note/202207121354458.png"></div>
+            <div class="item-body">
+              <span class="title">运维后台</span>
+              <span class="notice">基于Spug开源运维平台</span>
+            </div>
+          </div>
+        </a>
+        <div class="item-bottom">
+          <a href="https://spug.oyou.org/" target="_blank">
+            <div>点击进入</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="item-block">
+        <a href="https://k3s.oyou.org" target="_blank">
+          <div class="item-top">
+            <div class="item-logo"><img src="https://ucloud.19610412.xyz/note/202207121350272.png"></div>
+            <div class="item-body">
+              <span class="title">K3s</span>
+              <span class="notice">K3s Dashboard</span>
+            </div>
+          </div>
+        </a>
+        <div class="item-bottom">
+          <a href="https://k3s.oyou.org" target="_blank">
+            <div>后台地址</div>
+          </a>
+          <div class="divider"></div>
+          <a href="https://www.spug.dev" target="_blank">
+            <div>Token</div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="item-block">
+        <a href="https://grafana.com/" target="_blank">
+          <div class="item-top">
+            <div class="item-logo"><img src="https://ucloud.19610412.xyz/note/202207121354029.png"></div>
+            <div class="item-body">
+              <span class="title">Kubernetes</span>
+              <span class="notice">Kubernetes Dashboard</span>
+            </div>
+          </div>
+        </a>
+        <div class="item-bottom">
+          <a href="https://k3s.oyou.org" target="_blank">
+            <div>后台地址</div>
+          </a>
+          <div class="divider"></div>
+          <a href="https://www.spug.dev" target="_blank">
+            <div>Token</div>
+          </a>
+        </div>
+      </div>
+
+
+
+    </div> 
+
+    </div>
+  </div>
+</body>
+
+</html>
