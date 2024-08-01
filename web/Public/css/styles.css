@@ -401,7 +401,7 @@ input:focus {
 
 .header {
 	background: rgba(0, 0, 0, 0.5);
-	min-height: 1000px;
+	min-height: 100vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -490,12 +490,12 @@ input:focus {
 	margin-top: 14%;
 	position: relative;
 }
-.short-text {
-	margin: auto;
-	text-align: center;
-	color: rgba(255,255,255,0.7);
-	text-transform: uppercase;
-}
+/*.short-text {*/
+/*	margin: auto;*/
+/*	text-align: center;*/
+/*	color: rgba(255,255,255,0.7);*/
+/*	text-transform: uppercase;*/
+/*}*/
 
 /*---------------------------------------
  **   SECTION:  OUR FOCUS             -----
